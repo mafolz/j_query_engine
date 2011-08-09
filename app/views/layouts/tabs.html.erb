@@ -1,0 +1,8 @@
+<div class="tabs">
+  <ul>
+    <% tab_headers.each do |tab_header| %>
+      <li><a href="#tab-<%=tab_header[:tab_id]%>"><%=tab_header[:title]%></a></li>
+    <% end %>
+  </ul>
+  <%= tabs.to_s.html_safe %>
+</div>

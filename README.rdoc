@@ -1,0 +1,7 @@
+= JQueryEngine
+
+This engine should provide tools to setup jQuery/UI/Mobile easy and use
+them with Rails-Helpers and unobstrusive JS.
+
+The engine is in a very early stage.
+

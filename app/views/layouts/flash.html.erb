@@ -1,0 +1,5 @@
+<% flash.each do |type, message| %>
+  <% Array(message).each do |message| %>
+    <%= render :template => "layouts/flash/#{type}", :locals => {:message => message} %>
+  <% end %>
+<% end %>

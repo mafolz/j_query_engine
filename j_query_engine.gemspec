@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{j_query_engine}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Matthias Folz}]
-  s.date = %q{2011-08-09}
+  s.date = %q{2011-08-11}
   s.description = %q{TODO: longer description of your gem}
   s.email = %q{folz@avarteq.de}
   s.extra_rdoc_files = [
